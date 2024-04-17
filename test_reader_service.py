@@ -35,7 +35,7 @@ def test_update_reader_age(reader: ReaderIn = reader):
 
 
 def test_update_reader_city(reader: ReaderIn = reader):
-    reader_upd = ReaderIn(
+    reader_upd = ReaderOut(
         name= reader.name,
         phone=reader.phone,
         city=reader.city,
